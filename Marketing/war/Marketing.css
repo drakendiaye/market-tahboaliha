@@ -1,0 +1,73 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #E67451;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+body {
+  padding: 10px;
+}
+
+.phoneListHeader {
+  background-color: #C85A17;
+  color: white;
+  font-style: italic;
+}
+
+/* phone list flex table */
+.phoneList {
+  border: 1px solid silver;
+  padding: 2px;
+  margin-bottom:6px;
+}
+
+/* phone list Price and Change fields */
+.phoneListNumericColumn {
+  text-align: right;
+  width:8em;
+}
+
+/* phone list Remove column */
+.phoneListRemoveColumn {
+  text-align: center;
+}
+
+/* phone list Update column */
+.phoneListUpdateColumn {
+  text-align: center;
+}
+
+/* Add phone panel */
+.addPanel {
+  margin: 10px 0px 15px 0px;
+}
+
+/* phone list, the Remove button */
+.gwt-Button-remove {
+  width: 50px;
+}
+/* phone list, the Update button */
+.gwt-Button-update {
+  width: 50px;
+}
+
+
+.dragdrop-dropTarget-engage {
+  background-color: #C34A2C;
+}
+
+.getting-started-label {
+  border: 1px solid #E55B3C;
+  background-color: #F76541;
+  padding: 0.1em;
+}
+
+.getting-started-blue {
+  border: 1px solid blue;
+}
